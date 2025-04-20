@@ -24,7 +24,7 @@ const Signup = () => {
 
 
         } catch (error) {
-            console.log("error in sending data", error)
+            toast.error("error in sending data", error)
         }
     };
 
